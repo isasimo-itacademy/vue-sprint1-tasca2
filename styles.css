@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-/* Block with all content*/
+/* Block with all content */
+/* content height is defined in % within corresponding tag */
 
 .container {
     height: 100vh;
