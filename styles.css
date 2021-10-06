@@ -17,7 +17,8 @@ a {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 2%;
+  gap: 1%;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Header */
@@ -58,7 +59,8 @@ a {
 }
 
 .header .social ul li a:hover {
-    opacity: 1;
+  opacity: 1;
+  cursor: pointer;
 }
 
 /* Navigation */
@@ -69,15 +71,28 @@ a {
 
 .nav ul {
   height: 100%;
-  display: flex;
-  gap: 5px;
-  justify-content: space-between;
   list-style: none;
+  display: flex; /* displays nav items on the same line */
+  justify-content: center;
+  gap: 5px;
 }
 
 .nav ul li {
   flex: 1;
-  background-color: #97989a;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex; /* Center the text in the center of the item */
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul li:hover {
+  background-color: #e9f5eb;
+  cursor: pointer;
+}
+
+.nav ul li a {
+  color: #000000;
 }
 
 /* Featured */
