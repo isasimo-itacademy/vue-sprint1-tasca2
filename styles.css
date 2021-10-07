@@ -48,7 +48,7 @@
 }
 
 .header .social ul li a {
-  color: #fff;
+  color: #ffffff;
   opacity: 0.75;
   font-size: 22px;
 }
@@ -82,7 +82,7 @@
 }
 
 .nav ul li:hover {
-  background-color: #e9f5eb;
+  background-color: #F6EA7F;
   cursor: pointer;
 }
 
@@ -101,7 +101,32 @@
 
 .featured .card {
   flex: 1;
-  background-color: #b1b1b1;
+}
+
+.featured .card img {
+  max-width: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.featured .card:hover .img-filter {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.featured .card:hover .highlight {
+  background-color: #F6EA7F
+}
+
+.featured .card:hover {
+  cursor: pointer;
+}
+
+.featured .card h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  line-height: 1.4;
+  padding: 8px 0;
 }
 
 /* Main Section */
